@@ -15,7 +15,7 @@ C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64122
+52182
 Successfully changed project path to: C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 115.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006285 seconds.
+Registered in 0.006654 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 101.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  0.563 seconds
 Domain Reload Profiling:
-	ReloadAssembly (619ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (446ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (273ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010790 seconds.
+Registered in 0.010530 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 109.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  1.249 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1081ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (593ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (628ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (0.7 MB). Loaded Objects now: 6640.
-Memory consumption went from 233.7 MB to 233.0 MB.
-Total: 8.106100 ms (FindLiveObjects: 0.567800 ms CreateObjectMapping: 0.453600 ms MarkObjects: 6.762100 ms  DeleteObjects: 0.321700 ms)
+Unloading 6223 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (0.7 MB). Loaded Objects now: 6646.
+Memory consumption went from 233.8 MB to 233.1 MB.
+Total: 7.857600 ms (FindLiveObjects: 0.485200 ms CreateObjectMapping: 0.426500 ms MarkObjects: 6.633100 ms  DeleteObjects: 0.312000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,178 +164,132 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 592184.069045 seconds.
-  path: Assets/LucasStuff/Scripts/GameCreditsAnimator.cs
-  artifactKey: Guid(7e9a92a5b63ff27489aac4376b937ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasStuff/Scripts/GameCreditsAnimator.cs using Guid(7e9a92a5b63ff27489aac4376b937ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cb29ba7551a717f6e309f6cccfebec') in 0.047366 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010275 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (793ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (415ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6643.
-Memory consumption went from 223.4 MB to 222.8 MB.
-Total: 7.210900 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.352500 ms MarkObjects: 6.127800 ms  DeleteObjects: 0.303800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009476 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
-Domain Reload Profiling:
-	ReloadAssembly (986ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (790ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (428ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6073 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6647.
-Memory consumption went from 223.5 MB to 222.8 MB.
-Total: 7.047000 ms (FindLiveObjects: 0.408000 ms CreateObjectMapping: 0.336300 ms MarkObjects: 6.031100 ms  DeleteObjects: 0.271100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 681192.859048 seconds.
+  path: Assets/ImportedAssets/Common Game Tools
+  artifactKey: Guid(cc38ce9c5e90c3b4c9c4c7301258e1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Common Game Tools using Guid(cc38ce9c5e90c3b4c9c4c7301258e1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6555cc98f010796440d0588d665a2842') in 0.018373 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 248.032468 seconds.
-  path: Assets/LucasStuff/Scripts/Player/FurryStuffAnim.cs
-  artifactKey: Guid(09890e2288de6f247a3848e7d3cf7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasStuff/Scripts/Player/FurryStuffAnim.cs using Guid(09890e2288de6f247a3848e7d3cf7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dfe02199c27c56d0e6afaae275c665') in 0.017332 seconds 
+  Time since last request: 5.246609 seconds.
+  path: Assets/ImportedAssets/Common Game Tools/MenuPro/Resources
+  artifactKey: Guid(2b9bf91d9a0ba3d438103efa94526fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Common Game Tools/MenuPro/Resources using Guid(2b9bf91d9a0ba3d438103efa94526fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac759c478d1e0ea043f24469254e4fc') in 0.006683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.245845 seconds.
+  path: Assets/LucasStuff/Scripts/MainMenu.cs
+  artifactKey: Guid(e7cb41d602a6ed147beb6103fd504d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucasStuff/Scripts/MainMenu.cs using Guid(e7cb41d602a6ed147beb6103fd504d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2a990dfc229805e5563238faf6feb8') in 0.026365 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009994 seconds.
+Registered in 0.009495 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  1.057 seconds
 Domain Reload Profiling:
-	ReloadAssembly (957ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (751ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6649.
+Memory consumption went from 223.6 MB to 222.9 MB.
+Total: 7.208100 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.371000 ms MarkObjects: 5.916500 ms  DeleteObjects: 0.475200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229.811085 seconds.
+  path: Assets/LucasStuff/Scripts/MainMenu.cs
+  artifactKey: Guid(e7cb41d602a6ed147beb6103fd504d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucasStuff/Scripts/MainMenu.cs using Guid(e7cb41d602a6ed147beb6103fd504d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a21de9ccb5d418ac1c8550f1d84e52') in 0.014012 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008739 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (397ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6651.
-Memory consumption went from 223.5 MB to 222.8 MB.
-Total: 8.634200 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.161500 ms MarkObjects: 7.542100 ms  DeleteObjects: 0.486500 ms)
+Unloading 6077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6652.
+Memory consumption went from 223.6 MB to 222.9 MB.
+Total: 7.013200 ms (FindLiveObjects: 0.396500 ms CreateObjectMapping: 0.337600 ms MarkObjects: 5.990600 ms  DeleteObjects: 0.287600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -351,38 +305,38 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013440 seconds.
+Registered in 0.009069 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  1.054 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1027ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (438ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -390,10 +344,10 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 7.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6654.
-Memory consumption went from 223.5 MB to 222.8 MB.
-Total: 7.122000 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.136000 ms MarkObjects: 6.216100 ms  DeleteObjects: 0.341000 ms)
+Unloading 6120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 6696.
+Memory consumption went from 225.8 MB to 225.0 MB.
+Total: 7.655300 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 0.350600 ms MarkObjects: 6.529000 ms  DeleteObjects: 0.354700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -407,185 +361,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 96.792966 seconds.
-  path: Assets/LucasStuff/Scripts/Puzzles/Puzzle 1/PuzzleHandler.cs
-  artifactKey: Guid(8e5f9af9bd27c1447acdad15504d66eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasStuff/Scripts/Puzzles/Puzzle 1/PuzzleHandler.cs using Guid(8e5f9af9bd27c1447acdad15504d66eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448314279640978dde0530b720b1b3e9') in 0.017862 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010476 seconds.
+Registered in 0.009594 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  0.982 seconds
 Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
+			CreateAndSetChildDomain (41ms)
 		EndReloadAssembly (785ms)
-			LoadAssemblies (85ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6658.
-Memory consumption went from 223.5 MB to 222.9 MB.
-Total: 7.048800 ms (FindLiveObjects: 0.418800 ms CreateObjectMapping: 0.330100 ms MarkObjects: 6.005500 ms  DeleteObjects: 0.293900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.356866 seconds.
-  path: Assets/LucasStuff/Scripts/Puzzles/Puzzle 1/PuzzleRoomOne.cs
-  artifactKey: Guid(e9daf445aae2b4b41810544c11eec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasStuff/Scripts/Puzzles/Puzzle 1/PuzzleRoomOne.cs using Guid(e9daf445aae2b4b41810544c11eec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b75b211e7b380bf5da8b28a8fcb578') in 0.017125 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009217 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.284 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1285ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1009ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (486ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6076 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6662.
-Memory consumption went from 223.6 MB to 222.9 MB.
-Total: 6.412200 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.282700 ms MarkObjects: 5.449200 ms  DeleteObjects: 0.293300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 753.275898 seconds.
-  path: Assets/LucasStuff/Scripts/Player/NotWeebAnimations.cs
-  artifactKey: Guid(f7b80c33f9e03c44da0a323f600f8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasStuff/Scripts/Player/NotWeebAnimations.cs using Guid(f7b80c33f9e03c44da0a323f600f8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e43cd80fcf0afbe877792640a98d49d') in 0.018702 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008734 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (416ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.7 MB). Loaded Objects now: 6666.
-Memory consumption went from 223.6 MB to 222.9 MB.
-Total: 10.042000 ms (FindLiveObjects: 0.534100 ms CreateObjectMapping: 0.518400 ms MarkObjects: 8.641200 ms  DeleteObjects: 0.347300 ms)
+Unloading 6120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 6699.
+Memory consumption went from 226.0 MB to 225.2 MB.
+Total: 7.043100 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.352600 ms MarkObjects: 5.935200 ms  DeleteObjects: 0.340900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -598,3 +418,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 683.006574 seconds.
+  path: Assets/Painted HUD.jpg
+  artifactKey: Guid(b986ed353455767429378e06d7421857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painted HUD.jpg using Guid(b986ed353455767429378e06d7421857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4118477bcdadd35bb9ffc964c6276b4b') in 0.269756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Painted UI Inventory & Character Profile.jpg
+  artifactKey: Guid(76349b0f804168d47aca247679be5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painted UI Inventory & Character Profile.jpg using Guid(76349b0f804168d47aca247679be5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d36f07c3418483e750ff6db973044e0') in 0.212443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Painted UI Features.jpg
+  artifactKey: Guid(45cae7844906a8f4e92590162b027e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painted UI Features.jpg using Guid(45cae7844906a8f4e92590162b027e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fe963a330385272f38ac54432712da') in 0.194339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.520669 seconds.
+  path: Assets/ImportedAssets/Character & Inventory/Character Stats Underline.png
+  artifactKey: Guid(2d0fad04e922f574e930d1caed72e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Character & Inventory/Character Stats Underline.png using Guid(2d0fad04e922f574e930d1caed72e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7550ea6e84cb122d7b00506c16e6eb5') in 0.030561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedAssets/Character & Inventory/Inventory Tab Selected.png
+  artifactKey: Guid(fe2c91fc1e3058147adca7b91e631a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Character & Inventory/Inventory Tab Selected.png using Guid(fe2c91fc1e3058147adca7b91e631a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e514ef018367140ad3c20bf5a45b3a') in 0.030957 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

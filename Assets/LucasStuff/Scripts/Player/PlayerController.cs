@@ -83,9 +83,9 @@ public class PlayerController : MonoBehaviour
   if (wallGrab)
    return;
 
-  if (!wallJumped)
+  if (!wallJumped) 
   {
-   rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
+    rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
   }
   else
   {
@@ -95,40 +95,18 @@ public class PlayerController : MonoBehaviour
 
  private void Dash(float x, float y)
  {
-  // cam.transform.DOComplete();
-  //Camera.main.transform.DOShakePosition(.2f, .5f, 14, 90, false, true);
-  //FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
-
-  // hasDashed = true;
-
-  // anim.SetTrigger("dash");
-
   rb.velocity = Vector2.zero;
   Vector2 dir = new Vector2(x, y);
-
   rb.velocity += dir.normalized * DashSpeed;
   StartCoroutine(DashWait());
  }
-
  IEnumerator DashWait()
  {
-  // FindObjectOfType<GhostTrail>().ShowGhost();
   StartCoroutine(GroundDash());
-  //DOVirtual.Float(14, 0, .8f, RigidbodyDrag);
 
-  // dashParticle.Play();
   rb.gravityScale = 0;
-  //GetComponent<BetterJumping>().enabled = false;
-  // wallJumped = true;
-  // isDashing = true;
-
   yield return new WaitForSeconds(.3f);
-
-  // dashParticle.Stop();
   rb.gravityScale = 3;
-  // GetComponent<BetterJumping>().enabled = true;
-  //wallJumped = false;
-  // isDashing = false;
  }
 
  IEnumerator GroundDash()
@@ -139,8 +117,7 @@ public class PlayerController : MonoBehaviour
  }
 
  #endregion
-
- #region Jumps
+ 
 
  private void Jump(Vector2 dir, bool wall)
  {
@@ -150,7 +127,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-  #endregion
+
  }
 }
 
