@@ -11,6 +11,9 @@ public class MainMenu : MonoBehaviour
     public GameObject creditsPanel;
     public GameObject controlsPanel;
     
+    
+    
+    
     public void ChangeMenu(string menuName)
     {
         menu.SetActive(false);

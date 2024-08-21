@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
  public Rigidbody2D rb;
 
+ public GameObject wallJumpable;
  // Constants 
  public const float MaxFall = 160f;
  private const float Gravity = 900f;
@@ -28,19 +29,9 @@ public class PlayerController : MonoBehaviour
  public const float WalkSpeed = 64f;
 
  private const float DashSpeed = 240f;
- private const float EndDashSpeed = 160f;
- private const float EndDashUpMult = .75f;
- private const float DashTime = .15f;
- private const float DashCooldown = .2f;
- private const float DashRefillCooldown = .1f;
- private const int DashHJumpThruNudge = 6;
- private const int DashCornerCorrection = 4;
- private const int DashVFloorSnapDist = 3;
- private const float DashAttackTime = .3f;
+ 
 
- public float fallMultiplier = 2.5f;
- public float lowJumpMultiplier = 2f;
-
+ 
  private Collision coll;
  public bool canMove = true;
  public bool wallGrab = false;
@@ -87,7 +78,7 @@ public class PlayerController : MonoBehaviour
   {
     rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
   }
-  else
+  else 
   {
    rb.velocity = Vector2.Lerp(rb.velocity, (new Vector2(dir.x * speed, rb.velocity.y)), wallJumpLerp * Time.deltaTime);
   }
@@ -112,8 +103,6 @@ public class PlayerController : MonoBehaviour
  IEnumerator GroundDash()
  {
   yield return new WaitForSeconds(.15f);
-  //if (coll.onGround)
-  //     hasDashed = false;
  }
 
  #endregion
