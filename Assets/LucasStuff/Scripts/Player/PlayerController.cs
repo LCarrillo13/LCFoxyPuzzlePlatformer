@@ -110,13 +110,8 @@ public class PlayerController : MonoBehaviour
 
  private void Jump(Vector2 dir, bool wall)
  {
-
   rb.velocity = new Vector2(rb.velocity.x, 0);
   rb.velocity += dir * jumpForce;
-
-
-
-
  }
 }
 
