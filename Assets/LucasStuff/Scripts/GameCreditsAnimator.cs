@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameCreditsAnimator : MonoBehaviour
 {
@@ -14,5 +15,13 @@ public class GameCreditsAnimator : MonoBehaviour
     void Update()
     {
         
+    }
+    
+    
+    
+    IEnumerator ReturnToMainMenu()
+    {
+        yield return new WaitForSeconds(20f);
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -15,7 +15,7 @@ C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56627
+63014
 Successfully changed project path to: C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 126.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 143.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006016 seconds.
+Registered in 0.006470 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 117.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 129.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.529 seconds
+- Completed reload, in  0.601 seconds
 Domain Reload Profiling:
-	ReloadAssembly (529ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (392ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				RefreshPlugins (130ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadAttributes (114ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,53 +103,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009384 seconds.
+Registered in 0.011531 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.15 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 118.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
+- Completed reload, in  1.354 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1009ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (613ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (674ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6581 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (2.0 MB). Loaded Objects now: 6991.
-Memory consumption went from 257.0 MB to 255.0 MB.
-Total: 6.582600 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.148800 ms MarkObjects: 5.496800 ms  DeleteObjects: 0.484800 ms)
+Unloading 6586 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (2.0 MB). Loaded Objects now: 6996.
+Memory consumption went from 257.3 MB to 255.3 MB.
+Total: 8.203600 ms (FindLiveObjects: 0.635100 ms CreateObjectMapping: 0.502000 ms MarkObjects: 6.540500 ms  DeleteObjects: 0.525000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,3 +162,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1389827.713828 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0021_background.png
+  artifactKey: Guid(1cbb8d4f98f36f24fbe0f2806b79b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0021_background.png using Guid(1cbb8d4f98f36f24fbe0f2806b79b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3776e1c335267af540d3689ef56c4b') in 0.377715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0022_background.png
+  artifactKey: Guid(2b4e58983c9fb5142bfc3a242618aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0022_background.png using Guid(2b4e58983c9fb5142bfc3a242618aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e0049c19d4e492233eb239d0b5cbdc') in 0.285004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0012_background.png
+  artifactKey: Guid(3f9a549f2af056543a8ea2c9aa182ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0012_background.png using Guid(3f9a549f2af056543a8ea2c9aa182ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b109c3d9e2cf4cd60452904b47fb8c') in 0.161047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0005_background.png
+  artifactKey: Guid(cd708032d509531429f469fcd0526fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0005_background.png using Guid(cd708032d509531429f469fcd0526fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9544b3ca7371f1ab30680a5dcb7880') in 0.184002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0024_background.png
+  artifactKey: Guid(40e10b49d16437145bf0876abd465de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0024_background.png using Guid(40e10b49d16437145bf0876abd465de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e7cb06c8647da0636d4fa0a9b5d3d') in 0.204865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0008_background.png
+  artifactKey: Guid(88e75060b8818684b81c9ad790570698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0008_background.png using Guid(88e75060b8818684b81c9ad790570698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0bee2c348292461c7ffb0112322afb') in 0.195394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0006_background.png
+  artifactKey: Guid(ecbfa43cb695c3345819527b44050492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0006_background.png using Guid(ecbfa43cb695c3345819527b44050492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9478955b601a68647183e3e39ca5e8b4') in 0.227765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/angnadcab/2D Temples Background Pack/background_0002_background.png
+  artifactKey: Guid(6d33692bdef5c6b4e911ae6e00644de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/angnadcab/2D Temples Background Pack/background_0002_background.png using Guid(6d33692bdef5c6b4e911ae6e00644de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e444ca423c9bd6c94f06c98f861be20') in 0.212973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.406113 seconds.
+  path: Assets/Japanese landscape/Materials/glow_matrerial 1.mat
+  artifactKey: Guid(a79413a634293c847b19443c50798586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Materials/glow_matrerial 1.mat using Guid(a79413a634293c847b19443c50798586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444afc00958b91757678303b2cea2514') in 0.125006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.220684 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/cloud1.png
+  artifactKey: Guid(ffd9aa2f1a79d1d4fa330503e03fe419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/cloud1.png using Guid(ffd9aa2f1a79d1d4fa330503e03fe419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca710bc9af2d2ce8bbc6944a3a6d364f') in 0.107775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/shadow.png
+  artifactKey: Guid(9d77441e60ccc0e4fb3b2c15e1b4465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/shadow.png using Guid(9d77441e60ccc0e4fb3b2c15e1b4465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356d2196dee7a874254c1116e429ed3f') in 0.160813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.093804 seconds.
+  path: Assets/Japanese landscape/Pipelines/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(71864524e3d65404b83915f3fbf05f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Pipelines/New Universal Render Pipeline Asset_Renderer.asset using Guid(71864524e3d65404b83915f3fbf05f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a24806343d502cbaa7d267d7d9e7f1') in 0.008404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.073514 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer1/d2.png
+  artifactKey: Guid(1d1143a983633f04d8db498d3e987987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer1/d2.png using Guid(1d1143a983633f04d8db498d3e987987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8591656e3a68f660d4350cb903153890') in 0.036590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer1/d3.png
+  artifactKey: Guid(a3d85879effba334fb3df48f1eb1944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer1/d3.png using Guid(a3d85879effba334fb3df48f1eb1944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f11dd3d5b740d112d0d0a54c6c0b80') in 0.030718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.927869 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer2/c2.png
+  artifactKey: Guid(e28108858615d774093814cb1c1b2597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer2/c2.png using Guid(e28108858615d774093814cb1c1b2597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4549052d036d1d87b8c996f3924cbf41') in 0.042023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer2/c6.png
+  artifactKey: Guid(7d8cc3a0389aaf94690815845c79bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer2/c6.png using Guid(7d8cc3a0389aaf94690815845c79bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8efa3e35b266f7492df7ab3a5f2b689') in 0.034566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer2/c5.png
+  artifactKey: Guid(800b863b72dd2f840bad157d76d4e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer2/c5.png using Guid(800b863b72dd2f840bad157d76d4e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d80d26d140eccde1b84987e9ff2b0c') in 0.029993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.333805 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer4/a2.png
+  artifactKey: Guid(a68cdd28668482949b771439da3d05bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer4/a2.png using Guid(a68cdd28668482949b771439da3d05bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6035edea171ecc3cacdf41391ae7050c') in 0.045456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Japanese landscape/Sprites/Backgrounds/layer4/a4.png
+  artifactKey: Guid(fb317d5a514bd0e4ba78c2b4ce244a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese landscape/Sprites/Backgrounds/layer4/a4.png using Guid(fb317d5a514bd0e4ba78c2b4ce244a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb355e1df63d5d633ac17396a6efb85') in 0.046260 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

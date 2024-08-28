@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -10,9 +11,6 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject creditsPanel;
     public GameObject controlsPanel;
-    
-    
-    
     
     public void ChangeMenu(string menuName)
     {
@@ -31,7 +29,7 @@ public class MainMenu : MonoBehaviour
         }
         else if (menuName == "Credits")
         {
-            creditsPanel.SetActive(true);
+            SceneManager.LoadScene("Credits");
         }
     }
 }

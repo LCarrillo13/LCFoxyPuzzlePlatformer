@@ -1,0 +1,1018 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32657 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+63014
+Successfully changed project path to: C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
+C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 129.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lucas/Documents/GitHub/LCFoxyPuzzlePlatformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006118 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 114.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 117.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1184ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (2.0 MB). Loaded Objects now: 6997.
+Memory consumption went from 257.4 MB to 255.4 MB.
+Total: 7.398000 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.327200 ms MarkObjects: 5.896800 ms  DeleteObjects: 0.700900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1392130.381110 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/6D Wobble.asset
+  artifactKey: Guid(e9ce97b7a206dc64d90931ea044e0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/6D Wobble.asset using Guid(e9ce97b7a206dc64d90931ea044e0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1395e45bc2545a9ba627c6abfa88a97') in 0.052907 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7013.
+Memory consumption went from 245.8 MB to 243.8 MB.
+Total: 7.627100 ms (FindLiveObjects: 0.598000 ms CreateObjectMapping: 0.474800 ms MarkObjects: 6.030600 ms  DeleteObjects: 0.522800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7028.
+Memory consumption went from 245.8 MB to 243.8 MB.
+Total: 8.428700 ms (FindLiveObjects: 0.555700 ms CreateObjectMapping: 0.550100 ms MarkObjects: 6.773500 ms  DeleteObjects: 0.548500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7043.
+Memory consumption went from 245.8 MB to 243.9 MB.
+Total: 8.841700 ms (FindLiveObjects: 0.554700 ms CreateObjectMapping: 0.459300 ms MarkObjects: 6.873200 ms  DeleteObjects: 0.952300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010908 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1229ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7058.
+Memory consumption went from 245.8 MB to 243.9 MB.
+Total: 10.342900 ms (FindLiveObjects: 0.509400 ms CreateObjectMapping: 0.561900 ms MarkObjects: 8.541000 ms  DeleteObjects: 0.728900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010351 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7073.
+Memory consumption went from 245.9 MB to 243.9 MB.
+Total: 7.563000 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.362300 ms MarkObjects: 6.200100 ms  DeleteObjects: 0.541000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7088.
+Memory consumption went from 245.9 MB to 243.9 MB.
+Total: 7.488000 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.388400 ms MarkObjects: 6.094500 ms  DeleteObjects: 0.567300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1198ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7103.
+Memory consumption went from 245.9 MB to 243.9 MB.
+Total: 7.411500 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.344200 ms MarkObjects: 5.870500 ms  DeleteObjects: 0.733100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010890 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7118.
+Memory consumption went from 245.9 MB to 244.0 MB.
+Total: 9.220100 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.795900 ms MarkObjects: 7.231200 ms  DeleteObjects: 0.692200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009395 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7134.
+Memory consumption went from 246.0 MB to 244.0 MB.
+Total: 8.442900 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.540300 ms MarkObjects: 6.707600 ms  DeleteObjects: 0.553400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\LCFoxyPuzzlePlatformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6416 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (2.0 MB). Loaded Objects now: 7150.
+Memory consumption went from 246.0 MB to 244.0 MB.
+Total: 8.443000 ms (FindLiveObjects: 0.456100 ms CreateObjectMapping: 0.397800 ms MarkObjects: 6.902300 ms  DeleteObjects: 0.685700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2005.078404 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Boiled_flatfish.png
+  artifactKey: Guid(43125cdcf38fc0e41a5b9f92b8ded84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Boiled_flatfish.png using Guid(43125cdcf38fc0e41a5b9f92b8ded84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc72b07e04275b1134d87d1090681409') in 0.110249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Udo_nuta.png
+  artifactKey: Guid(4c0d12149183ca64ab441a85c038a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Udo_nuta.png using Guid(4c0d12149183ca64ab441a85c038a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a002e2c3f5662c575f61bcf6ca25c6') in 0.019333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Fried_spring_roll.png
+  artifactKey: Guid(7a93af1f928c48449a419396f4821454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Fried_spring_roll.png using Guid(7a93af1f928c48449a419396f4821454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03cd3689e69128330e9ea331266cfe8') in 0.020836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Okara.png
+  artifactKey: Guid(9091646cbb1fc3c489aea74efe5c31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Okara.png using Guid(9091646cbb1fc3c489aea74efe5c31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b3713bf445cdcc4490641fe661aee') in 0.021433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Meat_and_potato.png
+  artifactKey: Guid(314477a8be3d04a499e501ca72ca80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Meat_and_potato.png using Guid(314477a8be3d04a499e501ca72ca80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4414fefbe4a705c8627a2730df47cf') in 0.019035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Natto.png
+  artifactKey: Guid(649402780ebcd5c4bbc17570a5e1cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Natto.png using Guid(649402780ebcd5c4bbc17570a5e1cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ad1236e01f7537337535a3ee3e21f1') in 0.022040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Tororo.png
+  artifactKey: Guid(078ebfcaf4cda7844b15ad9a48de4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Tororo.png using Guid(078ebfcaf4cda7844b15ad9a48de4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5483bfeacac9bf7c8c1ba6af5c86c9fb') in 0.021631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Deep_fried_Jinkasa_Shiitake.png
+  artifactKey: Guid(8bb82bb4fb212cd40b33c691c693e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Deep_fried_Jinkasa_Shiitake.png using Guid(8bb82bb4fb212cd40b33c691c693e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842e910ca5fe720f23f239318c587a0d') in 0.021878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Mackerel_miso.png
+  artifactKey: Guid(393b318badad7534e92ece9634b9e604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Mackerel_miso.png using Guid(393b318badad7534e92ece9634b9e604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79eba607838963bb1e649cfbcb86c96c') in 0.021149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Oshinko.png
+  artifactKey: Guid(202708b61f3f8c6439827bdb0d83f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Home_Cooking/Oshinko.png using Guid(202708b61f3f8c6439827bdb0d83f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c860af235fda498c133fa2b04810a95') in 0.018971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.167697 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Assorted_Sashimi.png
+  artifactKey: Guid(40ae5d416b7aa264f8c81841d7c2a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Assorted_Sashimi.png using Guid(40ae5d416b7aa264f8c81841d7c2a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62d6ad123083db23ece9fa6b72165f8') in 0.018569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Eel_tempura.png
+  artifactKey: Guid(3848dfdd6a6b3b047994b2fadfa3e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Eel_tempura.png using Guid(3848dfdd6a6b3b047994b2fadfa3e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d192c57cd44ff9d3e54aa476cccd72') in 0.018967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Tessa_and_Teckchiri_Course.png
+  artifactKey: Guid(12c7dc5511fc2e5448ad347a5eb733f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Tessa_and_Teckchiri_Course.png using Guid(12c7dc5511fc2e5448ad347a5eb733f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef198e7786af4093b0dcbf82843d553') in 0.017844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Grilled_Eel.png
+  artifactKey: Guid(6a3954c8f45f41c48a5272e0a8c6ff8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Grilled_Eel.png using Guid(6a3954c8f45f41c48a5272e0a8c6ff8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc631b2c8f5b808dd22cea55f29c0208') in 0.018839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Mitarashi_dango.png
+  artifactKey: Guid(b939443787f8b8b46a268bffa8765ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Mitarashi_dango.png using Guid(b939443787f8b8b46a268bffa8765ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d53a726dc8d5c5e874d75364b9f64') in 0.024897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Raw_Oyster.png
+  artifactKey: Guid(f95cab72493d5cf49a75b1bdaadaa614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Raw_Oyster.png using Guid(f95cab72493d5cf49a75b1bdaadaa614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc40141b1cee6ada4826847237244ec') in 0.019706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Fugu_porridge.png
+  artifactKey: Guid(c10e47a2ff763f44c869aa8d5cfb8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Fugu_porridge.png using Guid(c10e47a2ff763f44c869aa8d5cfb8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c16834a76a78559b72aa6822361da20') in 0.019268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Skewers_a_la_carte.png
+  artifactKey: Guid(3d5dd00c789e84647b41dfb35c06575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Skewers_a_la_carte.png using Guid(3d5dd00c789e84647b41dfb35c06575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44a36ac2b17f23fb5372f1d4002061') in 0.021262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Tecchiri.png
+  artifactKey: Guid(a9b87c57032e69f4da8777f0e07cf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Tecchiri.png using Guid(a9b87c57032e69f4da8777f0e07cf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389e50bf7012e8f1959c114cf14e708f') in 0.022295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Deep_fried_blowfish.png
+  artifactKey: Guid(d768e74c2fb36314dbc35aee3f0ba1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Deep_fried_blowfish.png using Guid(d768e74c2fb36314dbc35aee3f0ba1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fdd5b182f95a4809e616fb9665838e') in 0.018600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Ise_lobster_miso_soup.png
+  artifactKey: Guid(305695a93fe6f4b4ebdf49e2fd618de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Restaurant/Ise_lobster_miso_soup.png using Guid(305695a93fe6f4b4ebdf49e2fd618de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5497e49ff35739151e71236c3d325aaf') in 0.018334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.537871 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Cold_Yellowtail.png
+  artifactKey: Guid(b697135cae5766641b9cecb17b0216d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Cold_Yellowtail.png using Guid(b697135cae5766641b9cecb17b0216d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47c289740ea87562269441abd8b8f2e') in 0.022361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Flounder_edge.png
+  artifactKey: Guid(98a10060afb6346478e14dd1c96e2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Flounder_edge.png using Guid(98a10060afb6346478e14dd1c96e2fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21360f03783d44e79b654af16be6e7f1') in 0.025131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Dried_Gourd_Roll.png
+  artifactKey: Guid(df2645c9000890749bef06c98351186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Dried_Gourd_Roll.png using Guid(df2645c9000890749bef06c98351186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a68fabf4e41739768a0225d1f6b0a64') in 0.022842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Shrimp.png
+  artifactKey: Guid(175fbb3f1b734ee4b933be4659186b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Shrimp.png using Guid(175fbb3f1b734ee4b933be4659186b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f02372691ce2fac931e4caedff301e') in 0.024041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Salad_Roll.png
+  artifactKey: Guid(6def2c376e9fdce42b4e581b550316f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Salad_Roll.png using Guid(6def2c376e9fdce42b4e581b550316f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646dad62a212f032c9592cd95d7dd57') in 0.024731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Conger_eel.png
+  artifactKey: Guid(857ad36a138e97e44b1145d7fd416a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Conger_eel.png using Guid(857ad36a138e97e44b1145d7fd416a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fe1265fa3afee782afabfe67d0b7d9') in 0.027859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Vinegared_mackerel.png
+  artifactKey: Guid(be222b595a89ab247906fe3ac4ed3094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Vinegared_mackerel.png using Guid(be222b595a89ab247906fe3ac4ed3094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe81ebcea6cf7106be9befcc117b44e') in 0.023752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Natto_Roll.png
+  artifactKey: Guid(719d78133129fc24f830cea8a439819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Natto_Roll.png using Guid(719d78133129fc24f830cea8a439819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90127d50750e4b25c453a1d4990887e1') in 0.031893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/One_King_crab.png
+  artifactKey: Guid(8ecd3de172d0e8148af931de1d9d35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/One_King_crab.png using Guid(8ecd3de172d0e8148af931de1d9d35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186473368cdbf969e9fb2b3b631edc3b') in 0.027781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Octopus.png
+  artifactKey: Guid(183766d65c7c4ad439456d802f2c6a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Octopus.png using Guid(183766d65c7c4ad439456d802f2c6a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713e37c457755a54c686ef293181a224') in 0.029877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Squid.png
+  artifactKey: Guid(a97f63aea9690f644923187ede3884bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Hand_formed_sushi_Squid.png using Guid(a97f63aea9690f644923187ede3884bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b14cdd98f8f98bed4244655440438e') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Kohada.png
+  artifactKey: Guid(8e5db595444af1742bcea71511aaa470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Sushi_Bar/Kohada.png using Guid(8e5db595444af1742bcea71511aaa470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f558f73bba71244d7b88451cb428412') in 0.021803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.474534 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Beef_bowl_Extra_Large.png
+  artifactKey: Guid(aff7991cd07e89249b5aaaecca025c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Beef_bowl_Extra_Large.png using Guid(aff7991cd07e89249b5aaaecca025c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457bf876f012d8c793e8917b42ff9d36') in 0.024309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Unajyu_TAKE.png
+  artifactKey: Guid(efe28ccd171628943a5d49a99ed57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Unajyu_TAKE.png using Guid(efe28ccd171628943a5d49a99ed57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110d375cb9e973e10f9f42af3590d0df') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Rice.png
+  artifactKey: Guid(bf1879bbbe4e95a4d9815ffb67d6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Rice.png using Guid(bf1879bbbe4e95a4d9815ffb67d6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e8fe246561b446181ef5bf80cd2ce') in 0.024884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Oyako_Don.png
+  artifactKey: Guid(89e5d13e0f557674b9177b8aa7344c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Oyako_Don.png using Guid(89e5d13e0f557674b9177b8aa7344c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f40cd67c9d3a62aeb8aa3b9bff8d4') in 0.021096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Lunch_set_meal_Jibu_ni_set_meal.png
+  artifactKey: Guid(ce1cf7ba7eae7d74188f6e08ce66e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Lunch_set_meal_Jibu_ni_set_meal.png using Guid(ce1cf7ba7eae7d74188f6e08ce66e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bfed37620695dc87134c66cd16ec8c') in 0.020889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Unajyu_MATSU.png
+  artifactKey: Guid(9d216c6a1cdabb64f8eed05032989170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Unajyu_MATSU.png using Guid(9d216c6a1cdabb64f8eed05032989170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e0b219a7f837f6cab58da9b25b9eba') in 0.022073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Grilled_Mackerel_Set_Meal.png
+  artifactKey: Guid(44a5c70287daba442bc214b87f084364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Grilled_Mackerel_Set_Meal.png using Guid(44a5c70287daba442bc214b87f084364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e4f7b9eb67d84da079ac0dd7184838') in 0.022044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Croquette_Set_Meal.png
+  artifactKey: Guid(4051b287ae56a3f489d24bc09df9df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Croquette_Set_Meal.png using Guid(4051b287ae56a3f489d24bc09df9df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff9a2e5de9447b064b27dd754b1b4a6') in 0.019708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Eel_chazuke.png
+  artifactKey: Guid(73fe88067846425478349ac21198bd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Eel_chazuke.png using Guid(73fe88067846425478349ac21198bd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3e59adf41cf684d342f52730c4c122') in 0.021624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Cooked_Rice.png
+  artifactKey: Guid(2d1780933378194409b412d67e298985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Cooked_Rice.png using Guid(2d1780933378194409b412d67e298985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e46fd6e5b48c9d9f47d7d86ac5f331') in 0.022778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Dashimaki_Set_Meal.png
+  artifactKey: Guid(002d4b90eb2c7e8428a2de343fe2551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Japanese_Food_Icon_Pack_Vol.01/JAPANESE_FOOD/128×128/Setmeal_&_Donburi/Dashimaki_Set_Meal.png using Guid(002d4b90eb2c7e8428a2de343fe2551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb65e7364f3d80e09c09e518fb4375') in 0.023779 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
