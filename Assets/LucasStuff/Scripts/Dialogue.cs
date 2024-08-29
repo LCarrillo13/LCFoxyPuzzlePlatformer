@@ -1,18 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private GameObject playerDialogue;
+    private TextMeshPro playerText;
+    [SerializeField]
+    private GameObject npcDialogue;
+    [SerializeField]
+    public string[] lines;
+    public float textSpeed;
+// vars 
+    private int index;
+    private bool isPlayerTalking;
+   
+    
+    void StartDialogue()
     {
-        
+        index = 0;
+        StartCoroutine(TypeLine());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator TypeLine()
     {
-        
+        foreach (char c in lines[index].ToCharArray())
+        {
+            playerText.text += c;
+            yield return new WaitForSeconds(textSpeed);
+        }
     }
 }
