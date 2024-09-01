@@ -10,34 +10,19 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
  public Camera cam;
-
  public Rigidbody2D rb;
-
  public GameObject wallJumpable;
  // Constants 
  public const float MaxFall = 160f;
  private const float Gravity = 900f;
- private const float HalfGravThreshold = 40f;
-
- private const float FastMaxFall = 240f;
- private const float FastMaxAccel = 300f;
-
- public const float MaxRun = 90f;
- public const float RunAccel = 1000f;
- private const float RunReduce = 400f;
- private const float AirMult = .65f;
  public const float WalkSpeed = 64f;
-
  private const float DashSpeed = 240f;
- 
-
- 
  private Collision coll;
+ // vars
  public bool canMove = true;
  public bool wallGrab = false;
  public bool wallJumped = false;
  public float wallJumpLerp = 1f;
-
  public float speed = 1f;
  public float jumpForce = 1f;
 
@@ -45,7 +30,6 @@ public class PlayerController : MonoBehaviour
  {
   rb = GetComponent<Rigidbody2D>();
  }
-
  private void Update()
  {
   float x = Input.GetAxis("Horizontal");
@@ -112,6 +96,18 @@ public class PlayerController : MonoBehaviour
  {
   rb.velocity = new Vector2(rb.velocity.x, 0);
   rb.velocity += dir * jumpForce;
+  if (wallGrab)
+  {
+   Debug.Log("grabable wall");
+  }
+ }
+
+ private void OnCollisionEnter(Collision other)
+ {
+  if (other.gameObject == wallJumpable)
+  {
+   Debug.Log("jumpable wall");
+  }
  }
 }
 

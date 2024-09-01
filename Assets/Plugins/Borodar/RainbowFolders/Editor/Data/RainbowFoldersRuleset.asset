@@ -17,7 +17,7 @@ MonoBehaviour:
     Key: Animations
     Ordinal: 0
     Priority: 0
-    IconType: 2010
+    IconType: 2510
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     Key: Audio
     Ordinal: 1
     Priority: 0
-    IconType: 2020
+    IconType: 2520
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
     Key: Materials
     Ordinal: 8
     Priority: 0
-    IconType: 2070
+    IconType: 2570
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     Key: Prefabs
     Ordinal: 11
     Priority: 0
-    IconType: 2110
+    IconType: 2610
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
     Key: Physics
     Ordinal: 20
     Priority: 0
-    IconType: 2090
+    IconType: 2590
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
     Key: Assets/LucasStuff/MSPaint fails
     Ordinal: 33
     Priority: 0
-    IconType: 2140
+    IconType: 3540
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
