@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemBase : MonoBehaviour
+public abstract class ItemBase : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    [Header("Global Item Variables")] [SerializeField]
+    protected int itemID;
+    
+    protected virtual void StatusEffects()
     {
         
     }
