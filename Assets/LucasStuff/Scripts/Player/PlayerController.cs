@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
  private const float Gravity = 900f;
  public const float WalkSpeed = 64f;
  private const float DashSpeed = 240f;
- private Collision coll;
+ private PlayerCollision coll;
  // vars
  public bool canMove = true;
  public bool wallGrab = false;

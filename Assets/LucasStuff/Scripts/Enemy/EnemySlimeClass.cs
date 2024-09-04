@@ -10,6 +10,7 @@ public class EnemySlimeClass : EnemyBaseClass
     protected override void Attack()
     {
         base.Attack();
+        
     }
 
     protected override void Move()
