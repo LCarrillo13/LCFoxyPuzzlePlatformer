@@ -31,5 +31,7 @@ public class MainMenu : MonoBehaviour
         {
             SceneManager.LoadScene("Credits");
         }
+        
+        // TODO create way to close previous menu when opening new one
     }
 }

@@ -25,9 +25,10 @@ public class PauseHandler : MonoBehaviour
         
         if (!isPaused)
         {
-            Time.timeScale = 0;
+           
             pausemenu.SetActive(true);
             isPaused = true;
+            Time.timeScale = 0;
         }
         else
         {
