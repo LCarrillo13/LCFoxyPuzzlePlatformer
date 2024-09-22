@@ -235,7 +235,7 @@ public class FileDataHandler : MonoBehaviour
         return mostRecentProfileId;
     }
 
-    // the below is a simple implementation of XOR encryption
+    // TODO simple data encryption
     private string EncryptDecrypt(string data) 
     {
         string modifiedData = "";
